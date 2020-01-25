@@ -6,7 +6,7 @@ steps{
 
     sh 'echo "Hello World"'
     sh '''
-    ehco "Multiline shell steps works too"
+    echo "Multiline shell steps works too"
     ls -lah
     '''
 }
